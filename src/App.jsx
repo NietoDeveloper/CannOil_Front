@@ -1,34 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Footer from './components/Layouts/Footer'
+import Header from './components/Layouts/Header'
+import { useEffect } from 'react';
+import Hero from './components/Layouts/Hero';
+import { useLocation } from 'react-router-dom';
+import { UserContext } from './UseContext';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+function App(props) {
+  const location = useLocation();
+  const username = JSON.parse(localStorage.getItem('authUsername'))
+  console.log(username);
 
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100
+    })
+    AOS.refresh();
+  }, [])
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <UserContext.Provider value={{ userName: username }}>
+      <Header />
+      {location.pathname !== '/login' && location.pathname !== '/register' && <Hero />}
+      {props.children}
+      <Footer />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
+    </UserContext.Provider>
   )
 }
 
