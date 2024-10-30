@@ -42,7 +42,7 @@ const Hero = (props) => {
                         justify-center items-center dark:bg-lime-950 dark:text-white duration-200
         '>
             {/* background pattern */}
-            <div className='h-[700px] w-[800px] bg-primary/40
+            <div className='h-[700px] w-[700px] bg-primary/40
                             absolute -top-1/2 right-0 rounded-3xl
                             rotate-45 -z[8]
             '></div>
