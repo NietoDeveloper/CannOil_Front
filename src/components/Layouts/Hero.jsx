@@ -1,6 +1,6 @@
 import React from 'react'
 import Image3 from "../../assets/hero/Hero3.png"
-import Image2 from "../../assets/hero/GoteroGorilla.png"
+import Image2 from "../../assets/hero/Hero2.png"
 import Image1 from "../../assets/hero/LogoCannOil-2.png"
 import Slider from "react-slick";
 const ImageList = [
@@ -14,13 +14,13 @@ const ImageList = [
     {
         id: 2,
         img: Image2,
-        title: "Somos Importadores y Distribuidores",
+        title: "CannOil es Importador y Distribuidor",
         description: "100% Libres de THC"
     },
     {
         id: 3,
         img: Image3,
-        title: "De los mejores laboratorios del mundo",
+        title: "De Los Mejores Laboratorios CBD del Mundo",
         description: "100% Libres de THC"
     }
 ]
@@ -42,7 +42,7 @@ const Hero = (props) => {
                         justify-center items-center dark:bg-gray-900 dark:text-white duration-200
         '>
             {/* background pattern */}
-            <div className='h-[700px] w-[700px] bg-primary/40
+            <div className='h-[700px] w-[800px] bg-primary/40
                             absolute -top-1/2 right-0 rounded-3xl
                             rotate-45 -z[8]
             '></div>
