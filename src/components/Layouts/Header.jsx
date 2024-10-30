@@ -42,7 +42,7 @@ const Header = () => {
                                 <a href="/" className='font-bold text-2xl sm:text-3xl
                                                         flex gap-2 '>
                                     <img src={Logo} alt="" className='w-10' />
-                                    CannOil
+                                    CannOil CBD
                                 </a>
                             </div>
                             {/* search */}

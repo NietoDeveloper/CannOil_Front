@@ -1,26 +1,26 @@
 import React from 'react'
-import Image1 from "../../assets/hero/women.png"
-import Image2 from "../../assets/hero/shopping.png"
-import Image3 from "../../assets/hero/LogoCannOil-2.png"
+import Image3 from "../../assets/hero/Hero3.png"
+import Image2 from "../../assets/hero/GoteroGorilla.png"
+import Image1 from "../../assets/hero/LogoCannOil-2.png"
 import Slider from "react-slick";
 const ImageList = [
     {
         id: 1,
         img: Image1,
-        title: "Up to 50% off on all Men's Wear",
+        title: "Aceites CBD Extracto de Flores de Cannabies",
         description:
-            "lorem His Life will forever  be Changed dolor sit amet,  consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "100% Libres de THC"
     },
     {
         id: 2,
         img: Image2,
-        title: "30% off on all Women's Wear",
-        description: "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        title: "Somos Importadores y Distribuidores",
+        description: "100% Libres de THC"
     },
     {
         id: 3,
         img: Image3,
-        title: "Aceites CBD extracto de flor de cannabies",
+        title: "De los mejores laboratorios del mundo",
         description: "100% Libres de THC"
     }
 ]
