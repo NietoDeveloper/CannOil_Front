@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/LogoCannOil-2.png'
 import { BsSearch } from "react-icons/bs";
 import { FaCartShopping } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -42,7 +42,7 @@ const Header = () => {
                                 <a href="/" className='font-bold text-2xl sm:text-3xl
                                                         flex gap-2 '>
                                     <img src={Logo} alt="" className='w-10' />
-                                    Shopsy
+                                    CannOil
                                 </a>
                             </div>
                             {/* search */}

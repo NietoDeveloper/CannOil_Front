@@ -1,7 +1,7 @@
 import React from 'react'
 import Image1 from "../../assets/hero/women.png"
 import Image2 from "../../assets/hero/shopping.png"
-import Image3 from "../../assets/hero/sale.png"
+import Image3 from "../../assets/hero/LogoCannOil-2.png"
 import Slider from "react-slick";
 const ImageList = [
     {
@@ -20,8 +20,8 @@ const ImageList = [
     {
         id: 3,
         img: Image3,
-        title: "70% off on all Products Sale",
-        description: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        title: "Aceites CBD extracto de flor de cannabies",
+        description: "100% Libres de THC"
     }
 ]
 const Hero = (props) => {
