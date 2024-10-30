@@ -1,4 +1,4 @@
-import Img5 from "../../assets/top/men1.png"
+import Img5 from "../../assets/top/LogoAlchemy.png"
 import Img6 from "../../assets/top/men2.png"
 import Img7 from "../../assets/top/top3.png"
 import Img from "../../assets/banner/banner.png"
