@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white 
+                <div className="shadow-md bg-lime-300 dark:bg-lime-950 dark:text-white 
                                 duration-200 relative z-40
                 ">
                     {/* up navbar */}

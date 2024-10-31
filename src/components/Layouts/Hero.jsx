@@ -15,7 +15,7 @@ const ImageList = [
         id: 2,
         img: Image2,
         title: "CannOil es Importador y Distribuidor",
-        description: "100% Libres de THC"
+        description: "40% - 30% - 20% - 15% - 10% Concentracion"
     },
     {
         id: 3,
