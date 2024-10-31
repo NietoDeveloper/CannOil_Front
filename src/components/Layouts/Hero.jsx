@@ -1,6 +1,6 @@
 import React from 'react'
 import Image3 from "../../assets/hero/Hero3.png"
-import Image2 from "../../assets/hero/Hero2.png"
+import Image2 from "../../assets/hero/Hero4.webp"
 import Image1 from "../../assets/hero/LogoCannOil-2.png"
 import Slider from "react-slick";
 const ImageList = [
@@ -20,7 +20,7 @@ const ImageList = [
     {
         id: 3,
         img: Image3,
-        title: "De Los Mejores Laboratorios CBD del Mundo",
+        title: "Los Mejores Laboratorios CBD del Mundo",
         description: "100% Libres de THC"
     }
 ]
