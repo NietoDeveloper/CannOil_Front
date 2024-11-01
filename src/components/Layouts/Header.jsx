@@ -11,11 +11,11 @@ const Header = () => {
     const handleCheckLogin = () => {
         if (checkLogin) {
             return (
-                <Link className='bg-primary rounded-full w-[70px] text-center' to="/login" onClick={handleLogout}>Logout</Link>
+                <Link className='bg-primary rounded-full w-[70px] text-center' to="/login" onClick={handleLogout}>Salir</Link>
             )
         } else {
             return (
-                <Link className='bg-primary rounded-full w-[70px] text-center' to="/login">Login</Link>
+                <Link className='bg-primary rounded-full w-[70px] text-center' to="/login">Ingresar</Link>
             )
         }
     }
