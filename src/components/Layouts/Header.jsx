@@ -49,7 +49,7 @@ const Header = () => {
                             <div className='flex justify-center items-center gap-4'>
                                 <div className='relative group hidden sm:block'>
                                     <input type="text"
-                                        placeholder='search'
+                                        placeholder='Buscar'
                                         className="w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300
                                             rounded-full border border-gray-300 px-2 py-1
                                             focus:outline-none focus:border-1 
@@ -93,7 +93,7 @@ const Header = () => {
                                 <a href="" className='inline-block px-4 hover:text-primary duration-200'>Blog</a>
                             </li>
                             <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Contactanos</a>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Contacto</a>
                             </li>
                             {/* simple Dropdown and Link */}
                             <li className='group relative cursor-pointer'>
