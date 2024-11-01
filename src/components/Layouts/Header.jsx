@@ -81,24 +81,24 @@ const Header = () => {
                     <div>
                         <ul className='sm:flex hidden items-center gap-4 justify-center'>
                             <li>
-                                <Link to="/" className='inline-block px-4 hover:text-primary duration-200'>Home</Link>
+                                <Link to="/" className='inline-block px-4 hover:text-primary duration-200'>Inicio</Link>
+                            </li>
+                            <li>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Productos</a>
+                            </li>
+                            <li>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Compra</a>
                             </li>
                             <li>
                                 <a href="" className='inline-block px-4 hover:text-primary duration-200'>Blog</a>
                             </li>
                             <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Kids Wear</a>
-                            </li>
-                            <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Mens Wear</a>
-                            </li>
-                            <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Electronics</a>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Contactanos</a>
                             </li>
                             {/* simple Dropdown and Link */}
                             <li className='group relative cursor-pointer'>
                                 <a href="#" className='flex items-center gap-[2px] py-2'>
-                                    Trending Products
+                                    Mas Vendidos
                                     <span>
                                         <IoMdArrowDropdown
                                             className='transition-all duration-200 group-hover:rotate-180'
@@ -111,12 +111,12 @@ const Header = () => {
                                     <ul>
                                         <li>
                                             <a href="" className='inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                                                Best Selling
+                                                Mas Vendidos
                                             </a>
                                         </li>
                                         <li>
                                             <a href="" className='inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                                                Top Rated
+                                                Mejor Calificados
                                             </a>
                                         </li>
                                     </ul>

@@ -76,7 +76,7 @@ const Hero = (props) => {
                                         <button className='bg-gradient-to-r from-primary to-secondary hover:scale-105
                                                         duration-200 text-white py-2 px-4 rounded-full lg:scale-120
                                     '>
-                                            Order Now
+                                            ! Compra ¡
                                         </button>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ const Hero = (props) => {
                                         className='relative z-10'>
                                         <img src={data.img}
                                             alt=""
-                                            className='w-[300px] h-[300px] sm:h-[400px] sm:w-[400px] sm:scale-125 object-contain mx-auto'
+                                            className='w-[250px] h-[300px] sm:h-[400px] sm:w-[400px] sm:scale-125 object-contain mx-auto'
                                         />
                                     </div>
                                 </div>
