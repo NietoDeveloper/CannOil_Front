@@ -62,7 +62,7 @@ const ProductList = () => {
     }
 
     return (
-        <div className='dark:bg-gray-800 -scroll-mb-12 pb-20'>
+        <div className='dark:bg-green-950 -scroll-mb-12 pb-20'>
             <ul className='flex justify-center'>
                 <li>A</li>
                 <li>B</li>
