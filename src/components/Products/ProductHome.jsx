@@ -43,12 +43,12 @@ const ProductHome = () => {
         }
     }
     return (
-        <div className='dark:bg-gray-800 pt-14 -scroll-mb-12 pb-20'>
+        <div className='dark:bg-green-950 pt-14 -scroll-mb-12 pb-20'>
             <div className='container'>
                 {/* header product */}
                 <div className='text-center mb-10 max-w-[600px] mx-auto'>
                     <p data-aos="fade-up" className='text-primary text-sm'>Top Selling Products for you</p>
-                    <h1 data-aos="fade-up" className='text-3xl font-bold dark:text-white'>Products</h1>
+                    <h1 data-aos="fade-up" className='text-3xl font-bold dark:text-white'>Productos</h1>
                     <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis nisi quia cum!</p>
                 </div>
                 {/* body product */}
@@ -62,7 +62,7 @@ const ProductHome = () => {
                         className='flex justify-center'>
                         <button
                             className='mt-10 text-center cursor-pointer bg-primary rounded-md text-white py-1 px-5'
-                        ><Link to={"/product/list"}>View All Product</Link></button>
+                        ><Link to={"/product/list"}>Todos Nuestros Productos</Link></button>
                     </div>
                 </div>
             </div>
