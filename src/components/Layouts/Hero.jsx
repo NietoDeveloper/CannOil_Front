@@ -38,8 +38,8 @@ const Hero = (props) => {
         pauseOnFocus: true
     }
     return (
-        <div className='relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-lime-300 
-                        justify-center items-center dark:bg-lime-950 dark:text-white duration-200
+        <div className='relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-lime-500 
+                        justify-center items-center dark:bg-green-950 dark:text-white duration-200
         '>
             {/* background pattern */}
             <div className='h-[700px] w-[700px] bg-primary/40
