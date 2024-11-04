@@ -1,6 +1,6 @@
-import Img5 from "../../assets/top/LogoAlchemy.png"
+import Img5 from "../../assets/top/LogoGorilla.png"
 import Img6 from "../../assets/top/men2.png"
-import Img7 from "../../assets/top/top3.png"
+import Img7 from "../../assets/top/LogoGorilla.png"
 import Img from "../../assets/banner/banner.png"
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
@@ -22,20 +22,20 @@ const TopProductList = [
     {
         id: 1,
         img: Img5,
-        title: "Casual Wear",
-        discription: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        title: "FoliuMed",
+        discription: "Concentracion CBD 15%"
     },
     {
         id: 2,
         img: Img6,
-        title: "Casual Wear",
-        discription: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        title: "FoliuMed",
+        discription: "Concentracion CBD 10%"
     },
     {
         id: 3,
         img: Img7,
-        title: "Casual Wear",
-        discription: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+        title: "Gorilla Grillz",
+        discription: "Concentracion CBD 40%"
     }
 ]
 const Home = (props) => {
@@ -48,9 +48,9 @@ const Home = (props) => {
                 <div className='container'>
                     {/* header top products */}
                     <div className='text-left mb-24'>
-                        <p className='text-primary text-sm'>Top Rated Products for you</p>
-                        <h3 className='text-3xl font-bold dark:text-white'>Best Products</h3>
-                        <p className='text-xs text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, corporis.</p>
+                        <p className='text-primary text-sm'>Nuestros Productos Mas Solicitados</p>
+                        <h3 className='text-3xl font-bold dark:text-white'>Mas Vendidos</h3>
+                        <p className='text-xs text-gray-400'>Estos son los productos mas vendidos por CannOil en los ultimos 3 meses.</p>
                     </div>
                     {/* products top card */}
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 sm:gap-5 place-items-center '>
@@ -58,13 +58,13 @@ const Home = (props) => {
                             TopProductList.map((data) => (
                                 <div
                                     data-aos="zoom-in"
-                                    className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80
+                                    className='rounded-2xl bg-emerald-300 dark:bg-emerald-800 hover:bg-black/80
                                             dark:hover:bg-primary hover:text-white
                                             relative shadow-xl duration-high group max-w-[300px]
                             '>
                                     {/* imgage */}
                                     <div className='h-[100px]'>
-                                        <img className='max-w-[140px] block mx-auto transform -translate-y-20
+                                        <img className='max-w-[160px] block mx-auto transform -translate-y-20
                                                     group-hover:scale-105 duration-300 drop-shadow-md
                                     '
                                             src={data.img}
