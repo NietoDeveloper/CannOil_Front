@@ -44,7 +44,7 @@ const Home = (props) => {
             {/* Banner */}
             <ProductHome />
             {/* Product List */}
-            <div className='dark:bg-gray-800 pt-14 -scroll-mb-12'>
+            <div className='dark:bg-green-950 pt-14 -scroll-mb-12'>
                 <div className='container'>
                     {/* header top products */}
                     <div className='text-left mb-24'>
@@ -85,7 +85,7 @@ const Home = (props) => {
                                         <button className='bg-primary hover:scale-105 duration-300
                                      text-white py-1 px-4 rounded-full mt-4 
                                      group-hover:bg-white group-hover:text-primary'>
-                                            Order Now
+                                            Comprar
                                         </button>
                                     </div>
                                 </div>
