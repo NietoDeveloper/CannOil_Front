@@ -23,19 +23,19 @@ const TopProductList = [
         id: 1,
         img: Img5,
         title: "FoliuMed",
-        discription: "Concentracion CBD 15%"
+        discription: "Concentraciones CBD del 5% 10% 15% "
     },
     {
         id: 2,
         img: Img6,
-        title: "FoliuMed",
-        discription: "Concentracion CBD 10%"
+        title: "Alchemy",
+        discription: "Concentraciones CBD del 20% 30% 35% "
     },
     {
         id: 3,
         img: Img7,
         title: "Gorilla Grillz",
-        discription: "Concentracion CBD 40%"
+        discription: "Concentracion CBD del 30% 35% 40%"
     }
 ]
 const Home = (props) => {
@@ -48,9 +48,9 @@ const Home = (props) => {
                 <div className='container'>
                     {/* header top products */}
                     <div className='text-left mb-24'>
-                        <p className='text-primary text-sm'>Nuestros Productos Mas Solicitados</p>
+                        <p className='text-primary text-sm'>Laboratorios Mas Solicitados</p>
                         <h3 className='text-3xl font-bold dark:text-white'>Mas Vendidos</h3>
-                        <p className='text-xs text-gray-400'>Estos son los productos mas vendidos por CannOil en los ultimos 3 meses.</p>
+                        <p className='text-xs text-gray-400'>Estos son los laboratorios mas vendidos por CannOil en los ultimos 3 meses</p>
                     </div>
                     {/* products top card */}
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 sm:gap-5 place-items-center '>
