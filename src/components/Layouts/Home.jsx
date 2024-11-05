@@ -95,7 +95,7 @@ const Home = (props) => {
                 </div>
             </div>
             {/* Best Product */}
-            <div className='min-h-[550px] flex justify-center items-center py-12 sm:py-0 dark:bg-green-950 dark:text-white'>
+            <div className='min-h-[550px] flex justify-center items-center py-12 sm:py-0 bg-green-400 dark:bg-green-950 dark:text-white'>
                 <div className='container'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
                         {/* image section */}
