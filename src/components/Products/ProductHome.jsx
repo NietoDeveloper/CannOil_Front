@@ -43,7 +43,7 @@ const ProductHome = () => {
         }
     }
     return (
-        <div className='dark:bg-green-950 pt-14 -scroll-mb-12 pb-20'>
+        <div className='bg-green-400 dark:bg-green-950 pt-14 -scroll-mb-12 pb-20'>
             <div className='container'>
                 {/* header product */}
                 <div className='text-center mb-10 max-w-[600px] mx-auto'>

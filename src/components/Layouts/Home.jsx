@@ -95,7 +95,7 @@ const Home = (props) => {
                 </div>
             </div>
             {/* Best Product */}
-            <div className='min-h-[550px] flex justify-center items-center py-12 sm:py-0 dark:bg-gray-800 dark:text-white'>
+            <div className='min-h-[550px] flex justify-center items-center py-12 sm:py-0 dark:bg-green-950 dark:text-white'>
                 <div className='container'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
                         {/* image section */}
@@ -108,11 +108,12 @@ const Home = (props) => {
                         </div>
                         {/* text details section */}
                         <div className='flex flex-col justify-center gap-6 sm:pt-0'>
-                            <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-bold'>Winter Sale upto 50% Off</h1>
+                            <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-bold'>Mejores Productos Para Tu Bienestar y Salud</h1>
                             <p
                                 data-aos="fade-up"
                                 className='text-sm text-gray-500 tracking-wide leading-5'
-                            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga animi dolorem iure facilis, tempore ullam?</p>
+                            >El aceite de cannabis rico en CBD se usa como complemento o suplemento alimenticio, remedio tópico o tratamiento farmacológico para el alivio del dolor crónico, la inflamación en enfermedades inflamatorias intestinales o cutáneas, la ansiedad, la depresión o la gravedad y frecuencia de las convulsiones en epilepsias refractarias.
+                                Se emplea asimismo para tratar síntomas de enfermedades neurológicas o neuropsiquiátricas como la esclerosis múltiple, el alzhéimer, el párkinson o la esquizofrenia. Junto con el otro cannabinoide más estudiado, el THC, ha demostrado inducir la muerte de células cancerosas in vitro e in vivo en modelos animales, inhibiendo la progresión del tumor.</p>
                             <div className='flex flex-col gap-4'>
                                 <div
                                     data-aos="fade-up"
@@ -120,7 +121,7 @@ const Home = (props) => {
                                     <GrSecure className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100
                                                     dark:bg-violet-400
                                 ' />
-                                    <p>Quality Products</p>
+                                    <p>Productos De Calidad</p>
                                 </div>
                                 <div
                                     data-aos="fade-up"
@@ -128,7 +129,7 @@ const Home = (props) => {
                                     <IoFastFood className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100
                                                     dark:bg-orange-400
                                 ' />
-                                    <p>Fast Delivery</p>
+                                    <p>Envio GRATIS y Rapido</p>
                                 </div>
                                 <div
                                     data-aos="fade-up"
@@ -136,7 +137,7 @@ const Home = (props) => {
                                     <GiFoodTruck className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100
                                                     dark:bg-green-400
                                 ' />
-                                    <p>Easy Payment method</p>
+                                    <p>Faciles Metodos De Pago</p>
                                 </div>
                                 <div
                                     data-aos="fade-up"
@@ -144,7 +145,7 @@ const Home = (props) => {
                                     <GiFoodTruck className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100
                                                     dark:bg-yellow-400
                                 ' />
-                                    <p>Get Offers</p>
+                                    <p>Precios Justos</p>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +156,7 @@ const Home = (props) => {
             <div data-aos="zoom-in" className='bg-white dark:bg-gray-800 text-white' style={BannerImg}>
                 <div className='container backdrop-blur-sm py-10'>
                     <div className='space-y-6 max-w-xl mx-auto'>
-                        <h1 className='text-2xl !text-center sm:text-left sm:text-4xl font-semibold'>Get Notified About New Products</h1>
+                        <h1 className='text-2xl !text-center sm:text-left sm:text-4xl font-semibold'>Mensaje a CannOil Servicio Al Cliente</h1>
                         <input
                             type="email"
                             placeholder='Enter Your Email'
