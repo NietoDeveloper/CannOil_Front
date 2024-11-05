@@ -87,10 +87,10 @@ const Header = () => {
                                 <a href="" className='inline-block px-4 hover:text-primary duration-200'>Productos</a>
                             </li>
                             <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Compra</a>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Comprar</a>
                             </li>
                             <li>
-                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Blog</a>
+                                <a href="" className='inline-block px-4 hover:text-primary duration-200'>Envio</a>
                             </li>
                             <li>
                                 <a href="" className='inline-block px-4 hover:text-primary duration-200'>Contacto</a>
@@ -98,7 +98,7 @@ const Header = () => {
                             {/* simple Dropdown and Link */}
                             <li className='group relative cursor-pointer'>
                                 <a href="#" className='flex items-center gap-[2px] py-2'>
-                                    Mas Vendidos
+                                    Usuario
                                     <span>
                                         <IoMdArrowDropdown
                                             className='transition-all duration-200 group-hover:rotate-180'
@@ -111,12 +111,12 @@ const Header = () => {
                                     <ul>
                                         <li>
                                             <a href="" className='inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                                                Mas Vendidos
+                                                Compras
                                             </a>
                                         </li>
                                         <li>
                                             <a href="" className='inline-block w-full rounded-md p-2 hover:bg-primary/20'>
-                                                Mejor Calificados
+                                                Entregados
                                             </a>
                                         </li>
                                     </ul>

@@ -43,13 +43,13 @@ const Footer = () => {
                                     <img src={Logo} alt="" className='max-w-[50px]' />
                                     CannOil CBD
                                 </h1>
-                                <p>Somos Importadores y Distribuidores De Aceite CBD De Cannabies En Diferentes Laboratorios y Concentraciones.</p>
+                                <p>Somos Importadores y Distribuidores De Aceite CBD De Cannabies. Diversos Laboratorios y Porcentajes De Concentracion</p>
                             </div>
                             {/* footer link */}
                             <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10'>
                                 <div>
                                     <div className='py-8 px-4'>
-                                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>Este Sitio</h1>
+                                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>CannOil.com</h1>
                                         <ul className='flex flex-col gap-3'>
                                             {
                                                 FooterLink.map((link) => (
@@ -63,7 +63,7 @@ const Footer = () => {
                                 </div>
                                 <div>
                                     <div className='py-8 px-4'>
-                                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>CannOilCBD.com</h1>
+                                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3'>CannOil CBD</h1>
                                         <ul className='flex flex-col gap-3'>
                                             {
                                                 FooterLink.map((link) => (
@@ -80,12 +80,6 @@ const Footer = () => {
                                     <div className="flex items-center mt-6 gap-3">
                                         <a href="">
                                             <FaInstagram className="text-3xl" />
-                                        </a>
-                                        <a href="">
-                                            <FaFacebook className='text-3xl' />
-                                        </a>
-                                        <a href="">
-                                            <FaLinkedin className='text-3xl' />
                                         </a>
                                     </div>
                                     <div className='mt-6'>
