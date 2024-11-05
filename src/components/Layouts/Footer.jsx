@@ -13,18 +13,18 @@ const BannerImg = {
 
 const FooterLink = [
     {
-        title: "Home",
+        title: "Inicio",
         link: "/#"
     },
     {
-        title: "About",
+        title: "Productos",
         link: "/#"
     }, {
-        title: "Contact",
+        title: "Comprar",
         link: "/#"
     },
     {
-        title: "Blog",
+        title: "Contacto",
         link: "/#"
     },
 ]
@@ -41,11 +41,9 @@ const Footer = () => {
                                                 mb-3 flex items-center gap-3
                                 '>
                                     <img src={Logo} alt="" className='max-w-[50px]' />
-                                    Shopsy
+                                    CannOil CBD
                                 </h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ullam fugiat sunt
-                                    enim nemo ipsum repellendus!</p>
+                                <p>Somos Importadores y Distribuidores De Aceite CBD De Cannabies En Diferentes Laboratorios y Concentraciones.</p>
                             </div>
                             {/* footer link */}
                             <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10'>
