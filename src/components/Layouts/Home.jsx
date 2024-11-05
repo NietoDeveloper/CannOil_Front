@@ -44,7 +44,7 @@ const Home = (props) => {
             {/* Banner */}
             <ProductHome />
             {/* Product List */}
-            <div className='dark:bg-green-950 pt-14 -scroll-mb-12'>
+            <div className='bg-green-400 dark:bg-green-950 pt-14 -scroll-mb-12'>
                 <div className='container'>
                     {/* header top products */}
                     <div className='text-left mb-24'>
