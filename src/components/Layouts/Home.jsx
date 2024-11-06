@@ -49,7 +49,7 @@ const Home = (props) => {
                     {/* header top products */}
                     <div className='text-left mb-24'>
                         <p className='text-primary text-sm'>Laboratorios Mas Solicitados</p>
-                        <h3 className='text-3xl font-bold dark:text-white'>Mas Vendidos</h3>
+                        <h3 className='text-3xl font-bold dark:text-white'>Laboratorios Mas Vendidos</h3>
                         <p className='text-xs text-gray-400'>Estos son los laboratorios mas vendidos por CannOil en los ultimos 3 meses</p>
                     </div>
                     {/* products top card */}
