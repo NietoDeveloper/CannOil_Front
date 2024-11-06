@@ -48,7 +48,7 @@ const Home = (props) => {
                 <div className='container'>
                     {/* header top products */}
                     <div className='text-left mb-24'>
-                        <p className='text-primary text-sm'>Laboratorios Mas Solicitados</p>
+                        <p className='text-primary text-sm'>Los Mas Solicitados</p>
                         <h3 className='text-3xl font-bold dark:text-white'>Laboratorios Mas Vendidos</h3>
                         <p className='text-xs text-gray-400'>Estos son los laboratorios mas vendidos por CannOil en los ultimos 3 meses</p>
                     </div>
@@ -137,7 +137,7 @@ const Home = (props) => {
                                     <GiFoodTruck className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100
                                                     dark:bg-green-400
                                 ' />
-                                    <p>Faciles Metodos De Pago</p>
+                                    <p>Faciles Medios De Pago</p>
                                 </div>
                                 <div
                                     data-aos="fade-up"
