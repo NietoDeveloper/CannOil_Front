@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Logo from '../../assets/logo.png'
 import api from '../../api';
-import { FaGooglePlusG, FaFacebookF } from "react-icons/fa";
+
 import { toast } from 'react-toastify';
 const Login = (props) => {
     const navigate = useNavigate();
