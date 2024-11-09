@@ -108,7 +108,7 @@ const Home = (props) => {
                         </div>
                         {/* text details section */}
                         <div className='flex flex-col justify-center gap-6 sm:pt-0'>
-                            <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-bold'>Mejores Productos Para Tu Bienestar y Salud</h1>
+                            <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-bold'>Mejores Productos Para La Salud y Bienestar</h1>
                             <p
                                 data-aos="fade-up"
                                 className='text-sm text-gray-500 tracking-wide leading-5'
@@ -156,10 +156,10 @@ const Home = (props) => {
             <div data-aos="zoom-in" className='bg-white dark:bg-gray-800 text-white' style={BannerImg}>
                 <div className='container backdrop-blur-sm py-10'>
                     <div className='space-y-6 max-w-xl mx-auto'>
-                        <h1 className='text-2xl !text-center sm:text-left sm:text-4xl font-semibold'>Mensaje a CannOil Servicio Al Cliente</h1>
+                        <h1 className='text-2xl !text-center sm:text-left sm:text-4xl font-semibold'>CannOil Servicio Al Cliente</h1>
                         <input
                             type="email"
-                            placeholder='Enter Your Email'
+                            placeholder='Escribe Tu Email'
                             data-aos="fade-up"
                             className='w-full p-3 text-black'
                         />
