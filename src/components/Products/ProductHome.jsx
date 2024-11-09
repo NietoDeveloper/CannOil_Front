@@ -50,8 +50,8 @@ const ProductHome = () => {
                     <p data-aos="fade-up" className='text-primary text-sm'>Los Mejores Laboratorios CBD </p>
                     <h1 data-aos="fade-up" className='text-3xl font-bold dark:text-white'>Domicilio Gratis</h1>
                      <p data-aos="fade-up" className='text-primary text-sm'>Domicilio Gratis Bogota Y Cundinamarca</p>
-                    <p data-aos="fade-up" className='text-xs text-gray-400'>Productos en concentracion CBD</p>
-                    <p data-aos="fade-up" className='text-xs text-gray-400'>5% 10% 15% 20% 25% 30% 35% 40%</p>
+                    <p data-aos="fade-up" className='text-xs text-blue-950'>Productos en concentracion CBD</p>
+                    <p data-aos="fade-up" className='text-xs text-blue-950'>5% 10% 15% 20% 25% 30% 35% 40%</p>
                 </div>
                 {/* body product */}
                 <div>
