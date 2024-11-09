@@ -47,11 +47,11 @@ const ProductHome = () => {
             <div className='container'>
                 {/* header product */}
                 <div className='text-center mb-10 max-w-[600px] mx-auto'>
-                    <p data-aos="fade-up" className='text-primary text-sm'>Los Mejores Laboratorios CBD </p>
+                <p data-aos="fade-up" className='text-primary text-xl'>Domicilio Gratis Para Bogota Y Cundinamarca</p>
                     <h1 data-aos="fade-up" className='text-3xl font-bold dark:text-white'>Domicilio Gratis</h1>
-                     <p data-aos="fade-up" className='text-primary text-sm'>Domicilio Gratis Bogota Y Cundinamarca</p>
-                    <p data-aos="fade-up" className='text-xs text-blue-950'>Productos en concentracion CBD</p>
-                    <p data-aos="fade-up" className='text-xs text-blue-950'>5% 10% 15% 20% 25% 30% 35% 40%</p>
+                     <p data-aos="fade-up" className='text-primary text-xm'>Los Mejores Laboratorios CBD Del Mundo</p>
+                    <p data-aos="fade-up" className='text-xm text-blue-950'>Aceites en concentracion CBD</p>
+                    <p data-aos="fade-up" className='text-xm text-blue-950'>5% 10% 15% 20% 25% 30% 35% 40%</p>
                 </div>
                 {/* body product */}
                 <div>
